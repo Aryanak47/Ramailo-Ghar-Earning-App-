@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Ramailo Ghar</string>
+    <string name="app_id">803934963715284</string>
+
+    <string name="opendrawer">openDrawer</string>
+    <string name="closedrawer">closeDrawer</string>
+
+    <string name="btn_feelings">Feelings</string>
+    <string name="btn_love">Love</string>
+    <string name="btn_emotions">Emotions</string>
+    <string name="comedy_video_btn">Comedy Video</string>
+    <string name="comedy_btn">Comedy</string>
+    <string name="tricky_btn">Tricky</string>
+    <string name="next_btn">NEXT</string>
+    <string name="withdraw_btn">WITHDRAW</string>
+    <string name="ok_btn">OK</string>
+
+    <string name="nrs_500000">Nrs.500000</string>
+    <string name="ads">ADS</string>
+    <string name="reg_fail_txt">User already exits with this email</string>
+    <string name="register_failed">Register Failed</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="login_fail_txt">Invalid Email or Password</string>
+    <string name="enter_amount_hint">Enter Amount</string>
+    <string name="enter_your_number_hint">Enter your number</string>
+    <string name="esewa_id_txt">Esewa ID</string>
+    <string name="paypal_id_txt">Paypal ID</string>
+    <string name="paytm_id_txt">Paytm ID</string>
+    <string name="master_id_txt">Payoneer ID</string>
+    <string name="welcome_txt">Welcome !</string>
+    <string name="register_to_continue_txt">Register to continue</string>
+    <string name="user_name_txt">User Name</string>
+    <string name="email_txt">Email</string>
+    <string name="password_txt">Password</string>
+    <string name="confirm_password_txt">Confirm Password</string>
+    <string name="register_txt">REGISTER</string>
+    <string name="already_have_an_account_txt">Already have an account ?</string>
+    <string name="login_txt">LOGIN</string>
+    <string name="create_your_account_txt">Create Your Account</string>
+    <string name="trans_failed">You must have more than or equals to Rs 200 💰 to withdraw</string>
+    <string name="log_in_progress">Logging in...</string>
+    <string name="log_in_deactivate">LOGIN</string>
+    <string name="invite_txt">Invite</string>
+    <string name="logout_txt">Logout</string>
+    <string name="youtube_error">Please install Youtube app in your device.</string>
+    <string name="no_video_txt">No more videos to play next</string>
+    <string name="policy">This Privacy Policy is intended to inform you how we gather, define, and use information that could identify you, such as your name, email address, address, other contact details, online identifiers or other information that you provide to us when using our application or when relying on our services. Please take a moment to read this Privacy Policy carefully.</string>
+    <string name="app_desc">Ramilo Ghar is a FREE revolutionary platform that allows you to EARN on the basis of your daily activities. Once you have earned real money with Ramailo Ghar , the choice is yours: you can either cash out for yourself or You can boost your youtube videos, facebook pages and much more.</string>
+    <string name="no_internet_body">Please connect to network,turn on mobile data or wifi</string>
+    <string name="no_internet_title">Connect to Network</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="links">
+        <item name="v1">4h1uSXWF0aQ</item>
+        <item name="v2">jPTEfRff1ps</item>
+        <item name="v3">bBgWYJfTRcA</item>
+        <item name="v4">h7VFOYBQ2Zo</item>
+        <item name="v5">CNQlbsp6Tzg</item>
+        <!--        <item name="v6">SsApXu2ZJPg</item>-->
+        <!--        <item name="v7">6wHbr9ukrTk</item>-->
+        <!--        <item name="v8">PqFYzOxt1uU</item>-->
+        <!--        <item name="v9">5iKrWICkKkc</item>-->
+        <!--        <item name="v10">IbdkdvjVMEc</item>-->
+        <!--        <item name="v11">9h3bSljtFHI</item>-->
+        <!--        <item name="v12">2Uj4gchdbNQ</item>-->
+        <!--        <item name="v13">anGyY6qtuww</item>-->
+        <!--        <item name="v14">pj83WlSjPX8</item>-->
+        <!--        <item name="v15">v90JDiScMEc</item>-->
+        <!--        <item name="v16">X1IHezNMtU</item>-->
+        <!--        <item name="v17">ms-S8iyqaeU</item>-->
+    </string-array>
+</resources>

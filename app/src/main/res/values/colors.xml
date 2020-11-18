@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#B06AB3</color>
+    <color name="moneyBg">#4285F4</color>
+    <color name="btn1">#FE4545</color>
+    <color name="btn2">#4285F4</color>
+    <color name="btn3">#4285F4</color>
+    <color name="btn4">#4285F4</color>
+    <color name="btn5">#4285F4</color>
+    <color name="btn6">#4285F4</color>
+    <color name="tapPropt">#B06AB3</color>
+    <color name="disabled">#cb9dcd</color>
+    <color name="strongPw">#00FF11</color>
+    <color name="weakPw">#C00</color>
+    <color name="fairPw">#f1c40f</color>
+    <color name="goodPW">#3498db</color>
+    <color name="nav_items">#aaa2a5</color>
+    <color name="black">#000000</color>
+    <color name="placeholder_color">#dddddd</color>
+    <color name="lightWhite">#f2f5f8</color>
+    <color name="white">#fff</color>
+
+</resources>

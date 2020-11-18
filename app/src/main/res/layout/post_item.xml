@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/root"
+    android:layout_marginBottom="6dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/top_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+      <com.mikhaellopez.circularimageview.CircularImageView
+          android:id="@+id/profile_img"
+          android:layout_width="40dp"
+          android:layout_margin="10dp"
+          android:layout_height="40dp"
+          app:civ_border_width="2dp"
+          app:civ_shadow_radius="13dp"
+          />
+        <TextView
+            android:id="@+id/usr_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16dp"
+            android:fontFamily="@font/lato_bold"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/descpription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <com.zolad.zoominimageview.ZoomInImageView
+        android:scaleType="fitXY"
+        android:id="@+id/user_post"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal" />
+    <RelativeLayout
+        android:id="@+id/bottom_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/ic_like" />
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/like"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="22dp"
+            app:srcCompat="@drawable/ic_share" />
+    </RelativeLayout>
+
+
+</LinearLayout>

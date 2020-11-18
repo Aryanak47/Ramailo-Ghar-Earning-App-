@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:title="Chat"-->
+<!--        android:icon="@drawable/ic_send_msg"-->
+<!--        android:id="@+id/send_msg"-->
+<!--        app:showAsAction="always"-->
+<!--        />-->
+
+
+
+    <item android:id="@+id/withdraw"
+        android:title="@string/withdraw_btn"
+        android:icon="@drawable/ic_withdraw"/>
+
+    <item android:id="@+id/invite"
+        android:title="@string/invite_txt"
+        android:icon="@drawable/ic_group_add_black_24dp"/>
+
+
+
+    <item android:id="@+id/rate"
+        android:title="Rate Us"
+        android:icon="@drawable/ic_star_black_24dp"/>
+
+    <item android:id="@+id/logout"
+        android:title="@string/logout_txt"
+        android:icon="@drawable/logout"/>
+
+    <item
+        android:title="Follow Us">
+        <menu>
+            <item
+                android:id="@+id/fb"
+                android:icon="@drawable/ic_facebook"
+                android:title="Facebook" />
+        </menu>
+    </item>
+
+</menu>

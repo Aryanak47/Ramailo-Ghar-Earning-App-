@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aryanapps.ramailoghar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.aryanapps.ramailoghar.PostDetail" />
+        <activity android:name="com.aryanapps.ramailoghar.YtVideoBoost" />
+        <activity android:name="com.aryanapps.ramailoghar.BoostFacebook" />
+        <activity android:name="com.aryanapps.ramailoghar.BoostYoutube" />
+        <activity android:name="com.aryanapps.ramailoghar.ProfileActivity" />
+        <activity android:name="com.aryanapps.ramailoghar.PostActivity" />
+        <activity android:name="com.aryanapps.ramailoghar.MainActivity" />
+        <activity android:name="com.aryanapps.ramailoghar.PrivacyPolicy" />
+        <activity android:name="com.aryanapps.ramailoghar.Splash" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="com.aryanapps.ramailoghar.Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.aryanapps.ramailoghar.WithDraw"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.aryanapps.ramailoghar.Comedy_Videos" />
+        <activity
+            android:name="com.aryanapps.ramailoghar.Feelings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.aryanapps.ramailoghar.Login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9221359940930821~1410846526"/>
+
+
+<!--        <provider-->
+<!--            android:name="com.facebook.FacebookContentProvider"-->
+<!--            android:authorities="com.facebook.app.FacebookContentProvider1459806660978042"-->
+<!--            android:exported="true" />-->
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>
