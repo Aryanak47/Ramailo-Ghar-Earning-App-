@@ -16,7 +16,6 @@
         <activity android:name="com.aryanapps.ramailoghar.ProfileActivity" />
         <activity android:name="com.aryanapps.ramailoghar.PostActivity" />
         <activity android:name="com.aryanapps.ramailoghar.MainActivity" />
-        <activity android:name="com.aryanapps.ramailoghar.PrivacyPolicy" />
         <activity android:name="com.aryanapps.ramailoghar.Splash" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
