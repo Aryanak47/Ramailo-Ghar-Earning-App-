@@ -15,5 +15,3 @@ A app for earning money by liking ,creating,sharing posts,watching youtube video
 ![screen shots](/screenShots/img1.jpg)
 ![screen shots](/screenShots/img2.jpg)
 
-
-*demo-->*[Ramailo Ghar](https://play.google.com/store/apps/details?id=com.aryanapps.ramailoghar)
